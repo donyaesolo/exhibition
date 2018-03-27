@@ -1,0 +1,40 @@
+body{
+	background-image: url(images/sea.jpg);
+	background-size: 100% 150%;
+	background-position: relative;
+	
+}
+.desktop {
+    width:100%;
+	height: 900px; 
+	overflow: inherit;
+
+}
+.bar {
+	opacity: 0.5;
+	position: fixed;
+	background-color: grey ;
+	width:200%;
+    height: 100%;
+    border: 1px solid grey;
+	margin-right: 100%;
+}
+ul{
+	list-style-type: none;
+}
+.dicon { 
+height: 350px;
+width: 290px;
+display: flex;
+text-align: center;
+	  
+}
+img{
+border-radius: 20%;
+}
+*:hover{
+cursor: url(images/ball.jpg), auto;  
+}
+.bar:hover{
+opacity: .75;
+}

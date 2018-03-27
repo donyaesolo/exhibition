@@ -1,0 +1,66 @@
+*{
+cursor: url(images/girl.cur), auto;
+
+}
+}
+h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+	from { background-color: red;}
+	to{ background-color: blue;}
+ /* from {
+	margin-left: 100%;
+    width: 300%;
+	}
+75% {
+  font-size: 300%;
+  margin-left: 25%;
+  width: 150%;
+}
+  to {
+	 margin-left: 3%;
+    width: 100%;
+	}*/
+}
+.desktop {
+    width:100%;
+	height: 900px; 
+	border: 0px solid rgba(255,0,0,0.5);
+	 border-radius: 25px;
+	 background-color: white;
+	 overflow: scroll;
+
+}
+.bar {
+	opacity: 0.5;
+	position: fixed;
+	background-color: grey ;
+	width:200%;
+    height: 100%;
+    border: 1px solid grey;
+	margin: 0px;
+}
+.tablink{
+border: none;
+font-size: 20px;
+}
+.icon img {
+border-radius: 25%;
+}
+.bar:hover{
+opacity: .75;
+}
+body{
+background-image: url(images/sea.jpg);
+}
+.exit{
+float: right;
+position: sticky;
+top: 0;
+}
+.exit:hover{
+filter: brightness(50%);
+}
