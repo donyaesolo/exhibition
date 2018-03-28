@@ -39,14 +39,8 @@ font-size: 20px;
 
 }
 
-#Project2 {
-background-color: #FF6666;
-background-size: cover;
-}
-@font-face {
-font-family: steampunk;
-src: url(Hustlers Rough Demo.ttf);
-}
+
+
 p {
-font-family: steampunk;
+size: 16px;
 }

@@ -46,9 +46,10 @@ h1 {
 .tablink{
 border: none;
 font-size: 20px;
+position: sticky;
+top: -1;
 }
-.icon img {
-border-radius: 25%;
+img {
 }
 .bar:hover{
 opacity: .75;
@@ -63,8 +64,4 @@ top: 0;
 }
 .exit:hover{
 filter: brightness(50%);
-}
-#Project2 {
-background-color: #FF6666;
-background-repeat: repeat;
 }
