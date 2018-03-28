@@ -16,3 +16,10 @@ function openProject(evt, projectName) {
 }  
 
  document.getElementById("defultOpen").click();
+ 
+ function songFunction(){
+ window.alert("The Song That is Playing is La Noire");
+ }
+  function song2Function(){
+ window.alert("The Song That is Playing is Home");
+ }

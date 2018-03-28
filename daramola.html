@@ -10,15 +10,20 @@
 	<div class = "tabs">
 		<button class="tablink" onclick="openProject(event, 'Project1')" id="defaultOpen">Project 1</button>
 		<button class="tablink" onclick="openProject(event, 'Project2')">Project 2</button>
+		<button class = "song" onclick = "songFunction()">Click For Name of The Song</button>
 	</div>		
 		<div id = "Project1" class = "content">
-			<audio controls autoplay>
+			<h1> Coding the Past Project</h1>
+
+			<audio controls>
 				<source src = "images/Joe_solo.mp3" type = "audio/mpeg">
-			</audio>
+			</audio>	
 			<audio controls autoplay loop>
 				<source src = "images/la_noire.mp3" type = "audio/mpeg">
 			</audio>
-			<img src = "images/transcript .JPG">
+			<img id = "trans"src = "images/transcript .JPG">
+			<p> I interviewed my Father for this project and then I had make a map
+			the image is my transcript that I made. Take a listen to the audio</p>
 		</div>
 		<div id = "Project2" class = "content">
 			<p> For this project we were assigned to an invention that people created during the industrial revolution</p>
@@ -32,6 +37,7 @@
 	</div>
 	<div class = "bar">
 		<img src = "images/daramola_icon.jpg"  height = "50px"width = "58px">
+	
 	</div>
 
 	
