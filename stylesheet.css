@@ -61,6 +61,8 @@ border-radius: 20%;
 }
 *:hover{
 cursor: url(images/ball.jpg), auto;  
+	margin: 0px;
+	padding: 0px;
 }
 .bar:hover{
 opacity: .75;
